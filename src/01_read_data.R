@@ -12,4 +12,10 @@ gm182UP <- read_csv(here::here('data', '2018-11-27_Gm182-UserPoints-Start-CEE-Lo
 
 # Read in Gm182 Data: 100 estimated positions of Gm182
 gm182 <- read_csv(here::here('data', '2018-11-27_Gm182-Start-CEE-Locations-Kahuna.csv')) %>% 
+<<<<<<< HEAD
   mutate(status = 'noUserPoints')
+=======
+  mutate(status = 'noUserPoints')
+
+# where'd it go?? 
+>>>>>>> b4539a0b1f2bb31d4cc59f429e53374f643a7f86
